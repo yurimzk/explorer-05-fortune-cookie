@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body, button {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: .5rem;
+
+    width: min(42.8rem, 90%);
+    margin: 0 auto;
+    margin-top: 12rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #34355B;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #34355B;
+}
+
+.closed-cookie, .opened-cookie {
+    text-align: center;
+}
+
+.closed-cookie {
+    padding: 4.8rem 6.4rem 6.4rem;
+}
+
+.closed-cookie h2 {
+    margin: 0 2.0rem;
+}
+
+.closed-cookie p {
+    margin-top: 1.4rem;
+    margin-bottom: 2.0rem;
+}
+
+.closed-cookie img {
+    width: 30.0rem;
+    height: 20.0rem;
+}
+
+.opened-cookie {
+    padding: 4.8rem 6.4rem;
+}
+
+.opened-cookie h2 {
+    margin: 0 1.5rem;
+}
+
+.fortune-message {
+    background-color: #E4EDF1;
+    padding: 1.0rem;
+    margin: 1.7rem .3rem;
+}
+
+.fortune-message p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    color: #000000;
+}
+
+.opened-cookie button {
+    background-color: #FF9500;
+    color: #FFFFFF;
+    border: 1px solid #FF9500;
+    border-radius: .4rem;
+    padding: 1.6rem;
+    margin-top: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.opened-cookie button:hover {
+    background-color: #cb7700;
+}
+
+.closed-cookie img, button {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
